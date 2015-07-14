@@ -7,7 +7,7 @@ Install
 ----------
 
 ```bash
-bower install https://github.com/gengen1988/angular-weixin
+bower install https://github.com/gengen1988/angular-weixin.git#master
 ```
 
 Usage
