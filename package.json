@@ -1,0 +1,17 @@
+{
+  "name": "angular-weixin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jssha": "^1.6.1",
+    "randomstring": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o dist/angular-weixin.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

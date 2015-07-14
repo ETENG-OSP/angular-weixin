@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<body ng-app="app">
+
+  <div ng-controller="TestController as testCtrl">
+    <button ng-click="testCtrl.takePicture()">take picture</button>
+  </div>
+
+  <!-- bower:js -->
+  <script src="bower_components/jweixin-bower/jweixin-1.0.0.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <!-- endbower -->
+  <script src="bundle.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
